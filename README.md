@@ -25,8 +25,7 @@ Component&nbsp;&nbsp;| Role | Tech
 * **Battery depletion demo** – GUI button drains 5 %; below 20 % the drone enters  
   *return-to-base* (forwards battery-only heart-beats)
 * **s GUIs**
-  * **Drone GUI**: raw table, averages, progress-bar, anomaly list, two real-time
-    Matplotlib charts (**temperature & humidity**)
+  * **Drone GUI**: raw table, averages, progress-bar, anomaly list
   * **Central GUI**: rolling summary table, per-drone battery bars, global anomaly list, live log
 * Fully asynchronous - no threads except GUI main-loop isolation
 * Extensive logs for every connection, disconnection, anomaly and battery event

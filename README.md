@@ -29,4 +29,13 @@ Component&nbsp;&nbsp;| Role | Tech
     Matplotlib charts (**temperature & humidity**)
   * **Central GUI**: rolling summary table, per-drone battery bars, global anomaly list, live log
 * Fully asynchronous - no threads except GUI main-loop isolation
-* Extensive l*
+* Extensive logs for every connection, disconnection, anomaly and battery event
+
+---
+
+## 3  Requirements
+* **Python ≥ 3.9** (standard library only: `asyncio`, `tkinter`, `logging`, `datetime`)
+* `matplotlib  >= 3.6` (for live charts)
+
+```bash
+python -m pip install matplotlib
